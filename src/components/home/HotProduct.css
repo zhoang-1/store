@@ -1,0 +1,22 @@
+.section-title{
+    animation: fadeInDown 0.75s ease 0.5s;
+    font-family: 'PT Sans', sans-serif;
+    color: #070707;
+    margin: auto;
+    margin-bottom: 30px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+@keyframes fadeInDown{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

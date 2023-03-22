@@ -1,0 +1,37 @@
+.grid{
+    display: block;
+}
+.grid__item1{
+    animation: fadeInRight 0.75s ease  0.5s ;
+}
+.title_btn{
+    background: #EFEFF4;
+    padding: 15px;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.grid__item2{
+    animation: fadeInLeft 0.75s ease 0.5s 1 normal none;
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

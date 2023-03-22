@@ -1,0 +1,25 @@
+.croll {
+    
+    font-size: 0px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    
+
+  }
+  
+  button.scroll-top:hover {
+    opacity: 0.8;
+  }
